@@ -45,7 +45,6 @@ sudo systemctl disable mysgw.service
 ./configure ${DEBUG_OPTS} ${STD_OPTS} ${TOPIC_OPTS} ${ID_OPTS} ${PIN_OPTS} ${RF24_OPTS} --extra-cxxflags="${EXTRA_FLAGS}"
 
 make && sudo make install || exit -1
-exit 0
 
 echo "Executing: systemctl enable mysgw.service"
 sudo systemctl enable mysgw.service
