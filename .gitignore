@@ -12,3 +12,5 @@ bin
 doxygen.log
 TAGS
 tags
+mqtt_user
+mqtt_pass
